@@ -1,0 +1,12 @@
+name = "foo-stage-auth"
+type = "javascript"
+
+zone_id = "0f02aded663a88d4e31276b250ecc1e1"
+account_id = "44cb8adab02ef7b388b48091a6be4673"
+route = "foo.saladsimulator.com/*"
+
+workers_dev = true
+compatibility_date = "2021-10-03"
+
+[build.upload]
+format = "service-worker"
